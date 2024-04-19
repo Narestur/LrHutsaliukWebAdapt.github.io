@@ -29,9 +29,10 @@
               ><img src="img/header/logo.png" alt="Зображення Логотипу"
             /></a>
             <div class="dropdown">
-              <button class="menubutt">=</button>
+              <!-- <button class="menubutt">=</button> -->
+              <a onclick="toggle(document.getElementById('sub-menu'))" class="menubutt">=</a>
               <nav>
-                <ul class="menu">
+                <ul id="sub-menu" class="menu">
                   <li class="menu_item"><a href="#">Home</a></li>
                   <li class="menu_item"><a href="#">Shop</a></li>
                   <li class="menu_item"><a href="#">Blog</a></li>
@@ -410,5 +411,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    
+    
   </body>
 </html>
